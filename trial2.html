@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightblue">
+
+<center><font color="blue"><h2>Employees provident Fund calculater</h2></font></center>
+
+Your Present age :  <input type="number" id="a1">
+<br><br>
+Your Retirement Age:  <input type="number" id="a2">
+<br><br>
+Your Basic Monthly Salary:  <input type="number" id="a3">
+<br><br>
+Average Annual Increase You Expect:  <input type="number" id="a4">
+<br><br>
+Your Contribution to Employee Provident Funds:  <input type="number" id="a5">
+<br><br><br><br>
+<button onclick="myFunction()">Confirm</button>
+
+<p id="demo1"></p>
+<p id="demo2"> </p>
+<p id="demo3"> </p>
+<p id="demo4"> </p>
+<p id="demo5"> </p>
+
+<script>
+function myFunction() {
+
+var x1= document.getElementById("a1").value;
+var x2= document.getElementById("a2").value;
+var x3= document.getElementById("a3").value;
+var x4= document.getElementById("a4").value;
+var x5= document.getElementById("a5").value;
+x7=15000;
+var tot1,tot2,tot3,tot4,tot5,total;
+
+if(x1<24 || x2<65 || x2>75 || x3<10000)
+{
+window.alert("Invalid Data... Please try again !!!");
+return false;
+}
+else {
+tot1=0.12*x5;
+tot2=0.0367*x5;
+tot3=0.0833*x5;
+tot4=0.0833*x7;
+tot5=tot3-tot4;
+total=tot5+tot2;
+
+
+document.getElementById("demo5").innerHTML = "The Final EPF amount contributed by Employee: "+ total;
+}
+}
+</script>
+
+</body>
+</html>

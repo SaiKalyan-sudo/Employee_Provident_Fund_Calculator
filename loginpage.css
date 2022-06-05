@@ -1,0 +1,83 @@
+﻿body{
+	
+	background-image:url('image3.jpeg');
+	background-color:white;
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+
+
+#center{
+	border:2px #905535;
+}
+
+
+#password,#Cpassword,#email,#user{
+	border-radius:5px;
+	
+}
+
+#password{
+	margin-right:17px;
+}
+
+div{
+    color:black;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	margin-left:0px;
+		
+}
+
+#button{
+	
+	background-color:#FAAC21;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	border-radius:20x;
+	cursor:pointer;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	cursor:pointer;
+}
+#password{
+	margin-left:20px;
+}
+#head{
+	background-color:#FAAC21;
+	padding:1px;
+	border-radius:5px;
+	margin-top:0px;
+  	margin-bottom: 0px;
+  	margin-right: 500px;
+  	margin-left: 500px;
+  	font-size:50px;
+  	font-family:"Times New Roman", Times, serif;
+  	
+}
+#submit:hover{
+	
+	background-color:#FAAC21;
+	margin-left:680px;
+	margin-right:680px;
+	border-radius:5px;
+	
+}
+h1{
+	background-color:#00CC99;
+	padding:1px;
+	border-radius:5px;
+	margin-top:0px;
+  	margin-bottom: 0px;
+  	margin-right: 500px;
+  	margin-left: 500px;
+  	font-size:50px;
+  	font-family:"Times New Roman", Times, serif;
+
+	
+	}
